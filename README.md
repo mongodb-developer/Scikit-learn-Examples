@@ -16,11 +16,11 @@ movie_collection = db['movies']
 # Retrieve the relevant dataset
 ```
 movie_data = movie_collection.find({}, {
-    'genre': 1,
-    'director': 1,
-    'actors': 1,
-    'release_year': 1,
-    'user_ratings': 1
+    'genres': 1,
+    'directors': 1,
+    'cast': 1,
+    'released': 1,
+    'tomatoes': 1
 })
 ```
 #Replace <your_connection_string> with the actual connection string for your MongoDB Atlas cluster.
