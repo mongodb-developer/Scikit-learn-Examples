@@ -76,3 +76,5 @@ report = classification_report(y_test, y_pred)
 print(report)
 ```
 Fine-tune the Model: Experiment with different hyperparameters of the classification algorithm to optimize the model's performance.
+
+[SciKit Learn Documentation](https://scikit-learn.org/stable/)
