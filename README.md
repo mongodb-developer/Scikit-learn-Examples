@@ -31,7 +31,7 @@ movie_data = movie_collection.find({}, {
 ```
 for movie in movie_data:
     if 'user_ratings' not in movie:
-        movie['user_ratings'] = 0.0
+        movie['tomatoes'] = 0.0
 ```
 Modify the preprocessing steps based on the specific requirements of your dataset.
 
@@ -42,7 +42,7 @@ from sklearn.model_selection import train_test_split
 # Split the data into training and testing sets
 ```
 X = [movie['genre'] + movie['director'] + movie['actors'] + [movie['release_year']] for movie in movie_data]
-y = [movie['user_ratings'] for movie in movie_data]
+y = [movie['tomatoes'] for movie in movie_data]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 ```
 Adjust the train-test split ratio (test_size) and random state (random_state) according to your needs.
