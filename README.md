@@ -30,7 +30,7 @@ movie_data = movie_collection.find({}, {
 # Preprocess the data (example: handling missing values)
 ```
 for movie in movie_data:
-    if 'user_ratings' not in movie:
+    if 'tomatoes' not in movie:
         movie['tomatoes'] = 0.0
 ```
 Modify the preprocessing steps based on the specific requirements of your dataset.
