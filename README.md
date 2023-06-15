@@ -1,3 +1,5 @@
+![Scikit-learn](https://www.analyticsvidhya.com/wp-content/uploads/2015/01/scikit-learn.png)
+
 #Retrieve the Movie Collection Data: Connect to your MongoDB Atlas sample data movie collection and retrieve the relevant dataset. This could include attributes like genre, #director, actors, release year, and user ratings.
 
 # Import the necessary libraries
