@@ -1,0 +1,18 @@
+#do this
+
+bash-3.2$ pip3 install seaborn
+Requirement already satisfied: seaborn in /opt/homebrew/lib/python3.11/site-packages (0.12.2)
+Requirement already satisfied: numpy!=1.24.0,>=1.17 in /opt/homebrew/lib/python3.11/site-packages (from seaborn) (1.24.3)
+Requirement already satisfied: pandas>=0.25 in /opt/homebrew/lib/python3.11/site-packages (from seaborn) (2.0.2)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.1 in /opt/homebrew/lib/python3.11/site-packages (from seaborn) (3.7.1)
+Requirement already satisfied: contourpy>=1.0.1 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (1.0.7)
+Requirement already satisfied: cycler>=0.10 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (4.39.4)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (1.4.4)
+Requirement already satisfied: packaging>=20.0 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (23.1)
+Requirement already satisfied: pillow>=6.2.0 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (9.5.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/homebrew/lib/python3.11/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/lib/python3.11/site-packages (from pandas>=0.25->seaborn) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /opt/homebrew/lib/python3.11/site-packages (from pandas>=0.25->seaborn) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.1->seaborn) (1.16.0)
